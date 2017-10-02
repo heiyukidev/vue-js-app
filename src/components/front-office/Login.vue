@@ -1,5 +1,6 @@
 <template>
-  <div id="Login" class="mdl-layout mdl-layout--fixed-header mdl-js-layout  mdl-color--white-100">
+<div>
+  <div id="Login" class="mdl-layout mdl-layout--fixed-header mdl-color--white-100">
     <main class="mdl-layout__content main_content">
       <h3><strong>Login to Admin</strong></h3>
       <div class="login-form-div mdl-grid mdl-shadow--2dp">
@@ -41,7 +42,7 @@
       </div>
     </main>
   </div>
-
+</div>
 </template>
 
 <script>
