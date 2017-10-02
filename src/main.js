@@ -4,6 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import 'material-design-lite/dist/material.min.js'
+import 'material-design-lite/dist/material.min.css'
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
