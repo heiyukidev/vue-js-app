@@ -53,11 +53,7 @@ export default {
     return {
       msg: ''
     }
-  },
-  mounted () {
-    window.dispatchEvent(new Event('load'))
   }
-
 }
 </script>
 

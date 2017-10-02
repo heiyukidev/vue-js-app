@@ -3,7 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+router.afterEach((to, from) => {
+  setTimeout(() => {
+    window.dispatchEvent(new Event('load'))
+  }, 100)
+})
 import 'material-design-lite/dist/material.min.js'
 import 'material-design-lite/dist/material.min.css'
 
